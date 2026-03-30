@@ -2,3 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
+.service_auth.json
