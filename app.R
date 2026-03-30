@@ -5,18 +5,35 @@ library(googledrive)
 library(dplyr)
 library(markdown)
 
-# --- 1. AUTHENTICATION ---
+# --- 1. AUTHENTICATION (Hybrid Cloud/Local) ---
 options(gargle_oauth_email = TRUE) 
 options(gargle_oauth_cache = ".secrets")
-app_dir <- getwd()
-SERVICE_AUTH <- file.path(app_dir, "service_auth.json")
 
-if (file.exists(SERVICE_AUTH)) {
-  drive_auth(path = SERVICE_AUTH, scopes = "https://www.googleapis.com/auth/drive")
+# Define the local path for your testing
+app_dir <- getwd()
+LOCAL_AUTH <- file.path(app_dir, "service_auth.json")
+
+# 1. Check if we are on the server (using Environment Variable)
+if (Sys.getenv("GOOGLE_JSON_KEY") != "") {
+  # Create a temporary file from the secret variable
+  t_file <- tempfile(fileext = ".json")
+  writeLines(Sys.getenv("GOOGLE_JSON_KEY"), t_file)
+  
+  drive_auth(path = t_file)
   gs4_auth(token = drive_token())
+  
+  # 2. If no variable, check for the local file (for your desktop/Posit Cloud testing)
+} else if (file.exists(LOCAL_AUTH)) {
+  drive_auth(path = LOCAL_AUTH)
+  gs4_auth(token = drive_token())
+  
+} else {
+  stop("CRITICAL ERROR: No authentication found. Upload service_auth.json or set GOOGLE_JSON_KEY.")
 }
 
 SHEET_ID <- "1ewnpXKjQt45mU-2-Nh9g5OlHzXGe9Uy5NzNtEvifHD0"
+
+
 
 # --- 2. UI ---
 ui <- page_navbar(
