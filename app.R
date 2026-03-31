@@ -39,7 +39,7 @@ SHEET_ID <- "1ewnpXKjQt45mU-2-Nh9g5OlHzXGe9Uy5NzNtEvifHD0"
 ui <- page_navbar(
   title = "Africa CDC-WHO IMST | Results Framework Matrix",
   id = "main_nav",
-  position = "fixed-top",
+  navbar_options = navbar_options(position = "fixed-top"), # Updated Line 37
   theme = bs_theme(
     bootswatch = "flatly",
     primary = "#006838",
