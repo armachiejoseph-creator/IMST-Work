@@ -7,9 +7,9 @@ editor_options:
 # Africa CDC-WHO IMST \| User Manual
 
 Welcome to the **Results Framework Matrix** portal. This application is
-designed to develop a comprehensive compendium of KPI's that can be used and
-IM's in responding to multi-country Piblic Health emergencies. This page provides
-overview of the Intevention Logic of the coordination mechanism(IMST) and the results
+designed to develop a comprehensive compendium of KPI's that can be used by
+IMST in responding to multi-country Piblic Health emergencies. This page provides
+overview of the Intervention Logic of the coordination mechanism(IMST) and the results
 the IMST intends to achieve. Read the results and use it to edit or create KPI's for 
 IMST
 
