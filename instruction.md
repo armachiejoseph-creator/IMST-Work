@@ -6,10 +6,14 @@ editor_options:
 
 # Africa CDC-WHO IMST \| User Manual
 
-Welcome to the **Results Framework Matrix** portal. As part of legacy
-documents emanating after a continental coordination mechinism to
-respond to muliple country outbreaks, we are developing a compendium of
-indicators that tracks results for emergency response.
+Welcome to the **Results Framework Matrix** portal. This application is
+designed to develop a comprehensive compendium of KPI's that can be used and
+IM's in responding to multi-country Piblic Health emergencies. This page provides
+overview of the Intevention Logic of the coordination mechanism(IMST) and the results
+the IMST intends to achieve. Read the results and use it to edit or create KPI's for 
+IMST
+
+
 
 ------------------------------------------------------------------------
 
@@ -46,8 +50,12 @@ strictly monitored.
 
 -   **Authorized Email:** You must enter your official email address in
     the "Authorized Email" field before saving.
--   Reach out [Joseph Armachie](mailto:armachiej@africacdc.org)
-    +23354746611 for authorization to edit KPI
+-   **Change Detection:** The system compares your entries against the
+    current database. If no actual changes are detected, the system will
+    not perform a save.
+-   **Audit Sheet:** Every individual field change is recorded in a
+    separate `audit_log` sheet, preserving the `old_value` and the
+    `new_value`.
 
 ------------------------------------------------------------------------
 
@@ -63,25 +71,33 @@ of the Gallery.
 
 ------------------------------------------------------------------------
 
-## Overall Resul
+# 
 
-## framework for the continental coordination mechanism
+## Intervention Logic for the continental coordination mechanism: IMST
 
-**Development of the Results Framework**
+![Intervention logic for Continental coordination mechanism](im_IL.png){width=90%}
 
+
+
+## Developing the Results framework for the continental coordination mechanism: IMST
+ 
+  
 The results framework for the Continental Response mechanism was
 developed through a structured, pillar-level inquiry using three core
 questions for each pillar and one core question for the IMST. This
 approach ensures that every pillar within the IMST clearly articulated
 its contribution to the overall goal of controlling the outbreak.
-
-**Q0: Why is the IMST established?** This continental coordination
+ 
+  
+  
+**Q0: Why is the IMST established?** These continental coordination
 mechanisms are time bound in terms of its operational framework and are
 activated to achieve specific results. The main aim is usually  the
 long-term impact of supporting Member States to reduce transmission,
 morbidity and mortality.
-
-**consultations with each pillar:**
+ 
+  
+## Consultations with each pillar
 
 **Q1: Why was the pillar added to the IMST?** This clarified the
 specific *purpose* of the pillar (e.g., ensuring timely surveillance,
@@ -105,12 +121,13 @@ development of guidelines, training, and digital system deployment).
 Countries can use Q3 to map the needed input and outputs at the country
 level needed to respond to and control the cholera outbreak.
 
-Combining the results across pillars created a unified input-to-impact
+Combining the results across pillars will create a unified input-to-impact
 results chain that links IMST capacity → IMST actions (outputs) →
 country-level results (outcomes) → reduction of cholera transmission and
 mortality (impact).
 
-### Results:
+### Overall Results framework
+![Overall Results framework](toc_M&E_IMST.png){width=86%}
 
 # Results Framework Matrix
 
@@ -165,7 +182,7 @@ mortality (impact).
 |:-----------------------------------|:-----------------------------------|
 | **Tier 1 Outcome** | Infected people receive timely, safe, and quality care within health care and community settings resulting in reduced preventable morbidity and mortality. |
 | **Tier 2 Outcome 4.1** | Functional and adequately resourced health facilities and community care points are available to provide timely and appropriate treatment for suspected and confirmed cholera cases. |
-| **Outputs contributing to Outcome 4.1** | • Functional cholera treatment centres (CTCs), oral rehydration points (ORPs), and community care pathways are established and operational. Essential supplies, including ORS, IV fluids, antibiotics, and IPC materials, are available where needed.<br>• Triage and referral systems enable rapid identification and management of suspected cases. |
+| **Outputs contributing to Outcome 4.1** | • Functional cholera treatment centres (CTCs), oral rehydration points (ORPs), and community care pathways are established and operational.  Essential supplies, including ORS, IV fluids, antibiotics, and IPC materials, are available where needed.<br>• Triage and referral systems enable rapid identification and management of suspected cases. |
 | **Tier 2 Outcome 4.2** | Case management is delivered in accordance with standardized clinical protocols, ensuring safe, effective treatment and reduced case fatality. |
 | **Outputs contributing to Outcome 4.2** | • Standardized cholera case management guidelines and job aids are disseminated and used.<br>• Health workers are trained and supported to deliver cholera care according to protocols.<br>• Clinical performance is monitored and corrective actions are implemented where gaps are identified. |
 | **Tier 2 Outcome 4.3** | Effective infection prevention and control |
