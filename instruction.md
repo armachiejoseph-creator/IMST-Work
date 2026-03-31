@@ -6,9 +6,10 @@ editor_options:
 
 # Africa CDC-WHO IMST \| User Manual
 
-Welcome to the **Results Framework Matrix** portal. This application is
-designed to provide a centralized registry for tracking and managing
-epidemiological indicators and public health activities.
+Welcome to the **Results Framework Matrix** portal. As part of legacy
+documents emanating after a continental coordination mechinism to
+respond to muliple country outbreaks, we are developing a compendium of
+indicators that tracks results for emergency response.
 
 ------------------------------------------------------------------------
 
@@ -45,12 +46,8 @@ strictly monitored.
 
 -   **Authorized Email:** You must enter your official email address in
     the "Authorized Email" field before saving.
--   **Change Detection:** The system compares your entries against the
-    current database. If no actual changes are detected, the system will
-    not perform a save.
--   **Audit Sheet:** Every individual field change is recorded in a
-    separate `audit_log` sheet, preserving the `old_value` and the
-    `new_value`.
+-   Reach out [Joseph Armachie](mailto:armachiej@africacdc.org)
+    +23354746611 for authorization to edit KPI
 
 ------------------------------------------------------------------------
 
@@ -168,7 +165,7 @@ mortality (impact).
 |:-----------------------------------|:-----------------------------------|
 | **Tier 1 Outcome** | Infected people receive timely, safe, and quality care within health care and community settings resulting in reduced preventable morbidity and mortality. |
 | **Tier 2 Outcome 4.1** | Functional and adequately resourced health facilities and community care points are available to provide timely and appropriate treatment for suspected and confirmed cholera cases. |
-| **Outputs contributing to Outcome 4.1** | • Functional cholera treatment centres (CTCs), oral rehydration points (ORPs), and community care pathways are established and operational.  Essential supplies, including ORS, IV fluids, antibiotics, and IPC materials, are available where needed.<br>• Triage and referral systems enable rapid identification and management of suspected cases. |
+| **Outputs contributing to Outcome 4.1** | • Functional cholera treatment centres (CTCs), oral rehydration points (ORPs), and community care pathways are established and operational. Essential supplies, including ORS, IV fluids, antibiotics, and IPC materials, are available where needed.<br>• Triage and referral systems enable rapid identification and management of suspected cases. |
 | **Tier 2 Outcome 4.2** | Case management is delivered in accordance with standardized clinical protocols, ensuring safe, effective treatment and reduced case fatality. |
 | **Outputs contributing to Outcome 4.2** | • Standardized cholera case management guidelines and job aids are disseminated and used.<br>• Health workers are trained and supported to deliver cholera care according to protocols.<br>• Clinical performance is monitored and corrective actions are implemented where gaps are identified. |
 | **Tier 2 Outcome 4.3** | Effective infection prevention and control |
