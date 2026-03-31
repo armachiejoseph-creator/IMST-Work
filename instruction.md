@@ -49,13 +49,7 @@ database.
 strictly monitored.
 
 -   **Authorized Email:** You must enter your official email address in
-    the "Authorized Email" field before saving.
--   **Change Detection:** The system compares your entries against the
-    current database. If no actual changes are detected, the system will
-    not perform a save.
--   **Audit Sheet:** Every individual field change is recorded in a
-    separate `audit_log` sheet, preserving the `old_value` and the
-    `new_value`.
+    the "Authorized Email" field before saving. Contact [Joseph Armachie](mailto:armachiej@africacdc.org) for edit right
 
 ------------------------------------------------------------------------
 
