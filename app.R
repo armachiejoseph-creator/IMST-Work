@@ -78,7 +78,7 @@ ui <- page_navbar(
       style = "max-width: 1500px; margin: auto; padding: 15px;",
       layout_column_wrap(
         width = 1/5,
-        selectInput("f_level", "Filter Level:", choices = c("All", "Outcome-long term", "Outcome", "Output")),
+        selectInput("f_level", "Filter Level:", choices = c("All", "Outcome-long term", "Outcome", "Output", "Process")),
         selectInput("f_pillar", "Filter Pillar:", choices = c("All", "Coordination", "IPC_CM", "Laboratory", "Logistics", "RCCE", "Research", "Surveillance", "Vaccination", "WASH", "Essential service")),
         textInput("f_search", "Search:"),
         div(style = "padding-top: 32px;", actionButton("refresh_data", "Refresh", icon = icon("sync"), class = "btn-outline-primary w-100")),
@@ -273,7 +273,7 @@ server <- function(input, output, session) {
           if (!is_new_entry()) actionLink("h_level", "History", class = "hist-link"),
           selectInput(
             "u_level", "Level",
-            choices = c("Select Level..." = "", "Outcome-long term", "Outcome", "Output"),
+            choices = c("Select Level..." = "", "Outcome-long term", "Outcome", "Output", "Process"),
             selected = clean_val(curr$results_level)
           )
         ),
